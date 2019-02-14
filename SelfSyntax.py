@@ -11,7 +11,6 @@ class Val():
 
 
 if __name__ == '__main__':
-    Val()
 
     objectVal = Val() #create object
     objectVal.callPrintValueX() #call a function in class Val using object

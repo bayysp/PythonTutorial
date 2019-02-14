@@ -1,8 +1,7 @@
 def main():
-    writeFile = open("testing.txt", "a") #a is for writing on file
-    writeFile.write("\nnama : Isan")
-    writeFile.write("\nnama : Buddy")
-    writeFile.close()
+    # writeFile = open("testing.txt", "a") #a is for writing on file
+    # writeFile.write("\nnama : Jihan")
+    # writeFile.close()
 
     readFile = open("testing.txt", "r")
     for line in readFile:

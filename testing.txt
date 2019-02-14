@@ -1,5 +1,7 @@
 
-nama : Bayu
 nama : Ai
+nama : Bayu
 nama : Isan
 nama : Buddy
+nama : Jihan
+nama : Farras
