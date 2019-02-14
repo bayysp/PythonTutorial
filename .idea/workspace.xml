@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a24b0ac0-2fca-474a-a496-edfb160e0bd8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CreateFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/CreateFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelfSyntax.py" beforeDir="false" afterPath="$PROJECT_DIR$/SelfSyntax.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testing.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,6 +14,7 @@
     <SUITE FILE_PATH="coverage/TutorialPython$HackerRank.coverage" NAME="HackerRank Coverage Results" MODIFIED="1547526027055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TutorialPython$List.coverage" NAME="List Coverage Results" MODIFIED="1547533481006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TutorialPython$DateTime.coverage" NAME="DateTime Coverage Results" MODIFIED="1550084730124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TutorialPython$RegPython.coverage" NAME="RegPython Coverage Results" MODIFIED="1550165491844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TutorialPython$List__1_.coverage" NAME="List (1) Coverage Results" MODIFIED="1547522801951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TutorialPython$Loops.coverage" NAME="Loops Coverage Results" MODIFIED="1550161270284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TutorialPython$Constructor.coverage" NAME="Constructor Coverage Results" MODIFIED="1550163389889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -71,26 +70,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="9" />
+          <entry key="py" value="10" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="9" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
-          <entry key="py" value="1799" />
+          <entry key="py" value="1941" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="1799" />
+          <entry key="Python" value="1941" />
         </counts>
       </usages-collector>
     </session>
@@ -153,15 +152,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Override.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="272">
+              <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
               <folding>
                 <marker date="1550164662093" expanded="true" signature="19:229" ph="..." />
                 <marker date="1550164662093" expanded="true" signature="265:495" ph="..." />
                 <marker date="1550164662093" expanded="true" signature="506:630" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RegPython.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <folding>
+                <marker date="1550165459211" expanded="true" signature="23:180" ph="..." />
               </folding>
             </state>
           </provider>
@@ -203,6 +214,7 @@
         <option value="$PROJECT_DIR$/SelfSyntax.py" />
         <option value="$PROJECT_DIR$/Constructor.py" />
         <option value="$PROJECT_DIR$/Override.py" />
+        <option value="$PROJECT_DIR$/RegPython.py" />
       </list>
     </option>
   </component>
@@ -253,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Override">
+  <component name="RunManager" selected="Python.RegPython">
     <configuration name="Constructor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TutorialPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,28 +280,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Constructor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="CreateFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TutorialPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CreateFile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,6 +332,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="RegPython" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TutorialPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RegPython.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SelfSyntax" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TutorialPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -365,19 +377,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.CreateFile" />
       <item itemvalue="Python.SelfSyntax" />
       <item itemvalue="Python.Loops" />
       <item itemvalue="Python.Constructor" />
       <item itemvalue="Python.Override" />
+      <item itemvalue="Python.RegPython" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.RegPython" />
         <item itemvalue="Python.Override" />
         <item itemvalue="Python.Constructor" />
         <item itemvalue="Python.SelfSyntax" />
         <item itemvalue="Python.Loops" />
-        <item itemvalue="Python.CreateFile" />
       </list>
     </recent_temporary>
   </component>
@@ -510,12 +522,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Override.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="272">
+          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
           <folding>
             <marker date="1550164662093" expanded="true" signature="19:229" ph="..." />
             <marker date="1550164662093" expanded="true" signature="265:495" ph="..." />
             <marker date="1550164662093" expanded="true" signature="506:630" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegPython.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <marker date="1550165459211" expanded="true" signature="23:180" ph="..." />
           </folding>
         </state>
       </provider>
