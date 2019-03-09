@@ -7,7 +7,7 @@ from pandas import ExcelFile
 
 
 def main():
-    workBook = pandas.read_csv('data_oprec.csv')
+    workBook = pandas.read_excel('PendaftarITC2019.xlsx')
 
     print("Column Headings : ")
     print(workBook.columns)
@@ -25,7 +25,7 @@ def main():
             tujuhBelas = tujuhBelas + 1
 
     for i in workBook.index:
-        getDiv = workBook['Pilihan Divisi'][i]
+        getDiv = workBook['Divisi'][i]
         if re.search("Web Development", getDiv):
             webDev = webDev+1
 

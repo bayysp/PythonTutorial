@@ -21,14 +21,14 @@ def main():
     #that list was contain array which is has a value of data_oprec.csv
     df = pandas.DataFrame(
         {
-            'Nama' : namaPendaftar,
-            'Angkatan' : angkatan,
-            'NIM' : nim,
-            'Divisi' : divisi
+            'Nama': namaPendaftar,
+            'Angkatan': angkatan,
+            'NIM': nim,
+            'Divisi': divisi
         }
     )
 
-    writer = ExcelWriter('DataPendaftar.xlsx') #create a new file
+    writer = ExcelWriter('DataPendaftarTerbaru.xlsx') #create a new file
     df.to_excel(writer, 'Sheet1', index=False) #put a value into new excel file
     writer.save() #save
 
